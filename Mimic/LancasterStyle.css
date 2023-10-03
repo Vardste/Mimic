@@ -1,0 +1,317 @@
+/* for the headliner, segment #1 */
+
+#university-watermark{
+    width: 3vh;
+    margin-left: 12vw;
+    margin-bottom: 0vw;
+    margin-top: 2vh;
+    float: left;
+    
+}
+
+/*Lancaster University URL next to header watermark, segment #1  */
+
+#header-content{
+    padding-left: 1vw;
+    color: white;
+    margin-top: 1vh;
+
+}
+
+/* header navbar, segment #1 */
+
+#initial-navbar{
+    padding: 0vw 0vw 0vw 79vw;
+    font-weight: bold;
+}
+
+/* urls style, segment #1 */
+
+#initial-navbar a {
+    color: white;
+}
+
+@media (max-width: 767px) {                  
+    #initial-navbar {
+       display: none;
+    }
+}
+
+/* Segment #2 div */
+
+#first-search{
+    background-color: white;
+}
+
+/* search bar for segment#2 */
+.searcher{
+    padding: 1vw 3vw 1vw 0vw;
+}
+
+/* Lancaster University Library watermark, segment #2 */
+#lib-watermark{
+    float: left;
+    width: 21vw;
+    margin-left: 12vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+/* general info of main navbar, segment #3 */
+#basic-navigation{
+    background-color: #B6121D;
+    width: 100%;
+    border: 0;
+    
+}
+
+/* center contents of various navbars */
+
+#center-navbar{
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+#center-navbar > li {
+    display: inline-block;
+    float:none;
+}
+
+/* contents of main navbar, segment #3 */
+#nav-content{
+    color: white;
+    
+}
+
+/* manage title text position of atrium image, segment #4 */
+#atrium-contents{
+    position:absolute;
+    margin-left: 38vw;
+    margin-top: -17vw;
+
+}
+
+/* manage atrium text title and background, segment #4 */
+#atrium-title{
+    width: 70%;
+    text-align: center !important;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    padding: 2%;
+}
+
+/* onesearch title, segment #5 */
+#one-search{
+    text-align: center;
+}
+
+/* search bar for segment#5 */
+#one-search-bar{
+    margin-left: 31vw;
+    width: 45vw;
+}
+
+/* urls below onesearch bar, segment #5 */
+#one-search-link{
+    color: #B6121D;
+    /* padding: 0vw 0vw 0vw 21vw; */
+    text-decoration:underline;
+    text-decoration-style: dotted
+    
+}
+
+/* looks of icons, segment #6#8 */
+#content-icon-style{
+    background-color: #68795c;
+    color: white;
+    width: 9vw;
+    margin-top: 2vw;
+
+}
+
+#content-icon-style:hover {
+    background-color: #363f30;
+}
+
+/* icon titles, segment #6#8 */
+#conetnt-descriptions {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 2vw;
+}
+
+#conetnt-descriptions:hover {
+    background-color: #363f30;
+}
+
+@media (max-width: 767px) {                  
+    #conetnt-descriptions {
+        float: right;
+        width: 41vw;
+    }
+
+    #content-icon-style{
+        float: left;
+    }
+}
+
+/* title, segment #7 */
+
+#lib-services-title{
+    margin-left: 12vw;
+}
+
+/* no bullets for list items, segment #7 */
+#lib-services-list{
+    list-style: none;
+}
+
+/* image controls, segment #7 */
+
+#lib-services-image{
+    margin-left: 9vw;
+    width: 12vw;
+}
+
+/* article titles, segment #7 */
+
+#lib-services-subtitle{
+    margin-left: 9vw;
+    padding: 1vw;
+    font-size: x-large;
+    background-color: #efefef;
+    width: 12vw;
+    color: #343434;    
+}
+
+/* p-text, segment #7 */
+
+#lib-services-p{
+    margin-left: 9vw;
+    width: 12vw;
+}
+
+@media (max-width: 767px) {                  
+    #lib-services-p, #lib-services-subtitle, #lib-services-image {
+        width: 81vw;
+        margin-left: 2vw;
+    }
+}
+
+/* overtitle management, segment #9  */
+#library-extension-project{
+    position:absolute;
+    margin-left: 49vw;
+    margin-top: -21vw;
+}
+
+/* efforts of maintaining title in smaller screens, segment #9 */
+@media (max-width: 767px) {                  
+    #extension-title{
+        display: none;
+        }
+    #extension-title-p{
+        width: 81vw;
+        margin-left: -31vw;
+        margin-top: -2vw;
+        height: 21vw;
+        
+    }
+
+}
+
+/* library extension title, segment #9 */
+#extension-title-p{
+    width: 70%;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    padding: 2vw;
+
+}
+
+/* library extension button, segment #9 */
+#extension-button{
+    background-color: #B6121D;
+    
+}
+
+/* segment #10 */
+#news-events{
+    background-color: #68795c;
+
+}
+
+#news-events-title{
+    color: white;
+    margin-left: 12vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+/*carousel image, segment #11 */
+
+#carousel-image{
+    width: 21vw;
+    margin-left: 41vw;
+}
+
+/*carousel texts, segment #11 */
+
+.carousel-caption{
+    background-color: whitesmoke;
+    color: #343434;
+    width: 21vw;
+    margin-left: 45vw;
+    margin-bottom: 1vw;
+}
+
+/*carousel-p, segment #11 */
+
+#carousel-p{
+    margin-top: 0vw;
+    margin-left: 1vw;
+    position: absolute;
+    background-color: whitesmoke;
+    color: #343434;
+}
+
+/* general footer info, segment #12*/
+
+#footer-styles{
+    color: white;
+}
+
+/* link textcolor, segment #12 */
+
+#footer-styles a{
+    color: grey;
+}
+
+#footer-styles a:hover{
+    color: white;
+}
+
+/* list looks, segment #12 */
+
+#footer-styles ul{
+    list-style: none;
+    text-align: left;
+    padding: 0vw;
+}
+
+/* icon appearence and placement, segment #12 */
+
+.fa {
+    padding: 1vw;
+    font-size: 4vw;
+    width: 1vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook, .fa-instagram, .fa-instagram, .fa-linkedin, .fa-weibo, .fa-wechat, .fa-twitter, .fa-youtube {
+    color: white;
+}

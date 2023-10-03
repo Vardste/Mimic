@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lancaster University Library</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--sets the page width to follow device screen size and the initial zoom-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="LancasterStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body style="background-color:#343434">
+
+    <!-- Header with University Logo, segment #1-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2" id="watermark">
+                <img class="img-responsive" id="university-watermark" src="assets/lu-shield.svg"
+                    alt="Lancaster University">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" id="header-content">Lancaster University</a></li>
+
+                </ul>
+            </div>
+            <div id="initial-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">For students</a></li>
+                    <li><a href="#">For staff</a></li>
+                    <li><a href="#">A-Z index</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- logo and search bar should be here, segment #2 -->
+    <div class="container-fluid">
+        <div class="row" id="first-search">
+
+            <img class="img-responsive" id="lib-watermark" src="assets/library-logo.svg"
+                alt="Lancaster University General Logo">
+
+            <div class="col-sm-3 col-md-3 pull-right">
+                <form class="navbar-form, searcher" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search this site...." name="srch-term"
+                            id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i
+                                    class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation bar, segment #3 -->
+    <div class="container-fluid" style="background-color: #B6121D;">
+        <nav class="navbar navbar-default" id="basic-navigation">
+            <div class="row">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" id="nav-content" href="#">About<span
+                                    class="caret"></span></a></li>
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" id="nav-content"
+                                href="#">Accesibility<span class="caret"></span></a></li>
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" id="nav-content" href="#">Contact Us<span
+                                    class="caret"></span></a></li>
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" id="nav-content" href="#">How To<span
+                                    class="caret"></span></a></li>
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" id="nav-content" href="#">Information
+                                For<span class="caret"></span></a></li>
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" id="nav-content" href="#">Resources and
+                                Services<span class="caret"></span></a></li>
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" id="nav-content" href="#">Opening
+                                Hours<span class="caret"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Atrium image and Text, segment #4 -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <img class="img-responsive" src="assets/FTHero1600x400atrium.jpg" alt="heya">
+            <div id="atrium-contents">
+                <h1 id="atrium-title" style="font-size:3vw;">Lancaster University Library</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- OneSearch, segment #5 -->
+
+    <div class="container-fluid" style="background-color:whitesmoke">
+
+        <div class="row" id="one-search">
+            <h2>OneSearch</h2>
+
+            <div id="one-search-bar">
+                <form class="navbar-form, searcher">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search Library Collections"
+                            name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i
+                                    class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <ul class="nav navbar-nav" id="center-navbar">
+            <li><a href="#" id="one-search-link">Advanced Search</a></li>
+            <li><a href="#" id="one-search-link">Using OneSearch</a></li>
+
+        </ul>
+    </div>
+
+
+    <!-- Content, segment #6 -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="navbar navbar-inverse action-bar-policies" style="background-color: #68795c;">
+                <ul class="nav navbar-nav" id="center-navbar">
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/0.png"
+                                alt="Resource Lists">
+                            <p id="conetnt-descriptions">Resource<br>Lists</p>
+                        </a></li>
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/1.png"
+                                alt="Databases">
+                            <p id="conetnt-descriptions">Databases</p>
+                        </a></li>
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/2.png"
+                                alt="Subject Guides">
+                            <p id="conetnt-descriptions">Subject<br>Guides</p>
+                        </a></li>
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/3.png"
+                                alt="Request a Resource">
+                            <p id="conetnt-descriptions">Request a<br>Resource</p>
+                        </a></li>
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/4.png"
+                                alt="Referencing">
+                            <p id="conetnt-descriptions">Referencing</p>
+                        </a></li>
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/5.png"
+                                alt="Welcome Guide">
+                            <p id="conetnt-descriptions">Welcome<br>Guide</p>
+                        </a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Picture Content,segment #7 -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="nav navbar-default" id="services-container">
+                <h2 id="lib-services-title">Library Services</h2>
+                <ul id="lib-services-list">
+                    <li class="col-lg-2 col-md-2 col-sm-2 ">
+                        <a href="#">
+                            <img src="assets/FBsubjectsupport600x350.jpg" class="img-fluid" id="lib-services-image"
+                                alt="FBsubject">
+                            <div class="container-fluid" id="lib-services-subtitle">Faculty Librarians</div>
+                        </a>
+                        <p id="lib-services-p">Supporting you to develop information
+                            skills such as planning a search, using
+                            subject databases and evaluating the information you find.</p>
+
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 ">
+                        <a href="#">
+                            <img src="assets/FBlearningdevelopment600x350.jpg" class="img-fluid" id="lib-services-image"
+                                alt="FBsubject">
+                            <div class="container-fluid" id="lib-services-subtitle">Learning Development</div>
+                        </a>
+                        <p id="lib-services-p">Supporting you to develop a range of academic skills such as critical
+                            thinking, academic writing, English Language and Maths & Stats.</p>
+
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 ">
+                        <a href="#">
+                            <img src="assets/FBresearchservices.jpg" class="img-fluid" id="lib-services-image"
+                                alt="FBsubject">
+                            <div class="container-fluid" id="lib-services-subtitle">Library Research Services</div>
+                        </a>
+                        <p id="lib-services-p">The Library supports you throughout the whole research cycle,
+                            no matter what stage you are in your research career.</p>
+
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 ">
+                        <a href="#">
+                            <img src="assets/JKP-151014-5679.jpg" class="img-fluid" id="lib-services-image"
+                                alt="FBsubject">
+                            <div class="container-fluid" id="lib-services-subtitle">Learn Independently</div>
+                        </a>
+                        <p id="lib-services-p">Explore resources and online learning material to develop your writing,
+                            referencing and information skills.</p>
+
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 ">
+                        <a href="#">
+                            <img src="assets/FTfeatureboxteaching.jpg" class="img-fluid" id="lib-services-image"
+                                alt="FBsubject">
+                            <div class="container-fluid" id="lib-services-subtitle">Resources and teaching</div>
+                        </a>
+                        <p id="lib-services-p">A range of Library resources and services to support teaching.</p>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- </div> -->
+
+    <!-- More Content, segment #8 -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="navbar navbar-inverse action-bar-policies" style="background-color: #68795c;">
+                <ul class="nav navbar-nav" id="center-navbar">
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/6.png"
+                                alt="Resource Lists">
+                            <p id="conetnt-descriptions">Opening hours</p>
+                        </a></li>
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/7.png"
+                                alt="Databases">
+                            <p id="conetnt-descriptions">Noisy neighbours</p>
+                        </a></li>
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/8.png"
+                                alt="Subject Guides">
+                            <p id="conetnt-descriptions">Book group study<br>space</p>
+                        </a></li>
+                    <li><a href="#"><img class="img-responsive" id="content-icon-style" src="assets/icons/9.png"
+                                alt="Request a Resource">
+                            <p id="conetnt-descriptions">Building updates</p>
+                        </a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Library Extension Project, segment #9 -->
+    <div class="container-fluid">
+
+        <div class="row">
+            <img class="img-responsive" src="assets/LibraryExtension1600x400.jpg" alt="heya">
+            <div id="library-extension-project">
+                <h1 id="extension-title">Library Extension Project</h1>
+                <p id="extension-title-p">An exciting new extension, due to open in January 2021
+                    Library Extension<br><br><button class="btn btn-primary" id="extension-button" type="submit">Library
+                        Extension</button></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- News and Events Bara, segment #10-->
+
+    <div class="container-fluid">
+
+        <div class="row" id="news-events">
+            <h1 id="news-events-title">News and Events</h1>
+
+        </div>
+
+    </div>
+
+
+    <!-- News and Events Carousel, segment #11 -->
+
+    <div class="container-fluid" style="background-color: white;">
+
+        <div class="row">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="assets/sculpture-20130481280-637147729898692213.jpg" id="carousel-image"
+                            alt="sculpture">
+                        <div class="carousel-caption">
+                            <h3>The Loeb Classical Library database now available</h3>
+                            <p id="carousel-p">The Loeb Classical Library online makes Greek and Latin literature
+                                accessible to the
+                                broadest range of readers</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/law-637147645701200038.jpg" id="carousel-image" alt="law">
+                        <div class="carousel-caption">
+                            <h3>Practical Law database now available</h3>
+                            <p id="carousel-p">A new database from the Library</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/newspaper-4335891280-637139948905852493.jpg" id="carousel-image"
+                            alt="newspaper">
+                        <div class="carousel-caption">
+                            <h3>Historical ArchiveTelegraph 1855-2016</h3>
+                            <p id="carousel-p">Newspaper archive now available from the Library</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer, segment #12 -->
+    <div class="container-fluid" id="footer-styles">
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#">Undergraduate Study</a></li>
+                    <li><a href="#">Postgraduate Study</a></li>
+                    <li><a href="#">For students</a></li>
+                    <li><a href="#">A-Z index</a></li>
+                    <li><a href="#">Job Vacancies</a></li>
+                    <li><a href="#">Collegies</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">Online Payments</a></li>
+                    <li><a href="#">Students' Union</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <h4>FACULTIES<br>& DEPTS</h4>
+                <ul>
+                    <li><a href="#">Arts & Social Sciences</a></li>
+                    <li><a href="#">Health & Medicine</a></li>
+                    <li><a href="#">Management School</a></li>
+                    <li><a href="#">Science & Technology</a></li>
+                    <li><a href="#">Departments, Institutes &<br>Centres</a></li>
+                    <li><a href="#">The Work Foundation</a></li>
+                </ul>
+
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2" id="connect">
+                <h4>CONNECT</h4>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-thestudentroom"></a><br>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-linkedin"></a><br>
+                <a href="#" class="fa fa-weibo"></a>
+                <a href="#" class="fa fa-wechat"></a>
+
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <h4>CONTACT US</h4>
+                <p id="contact-us-contents">
+                    Lancaster University<br>
+                    Lancaster<br>
+                    United Kingdom<br>
+                    LA1 4YW
+                </p>
+
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <img class="img-responsive" src="assets/icons/unnamed.png" alt="heya">
+
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
